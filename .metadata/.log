@@ -1,0 +1,556 @@
+!SESSION 2025-05-01 19:06:19.434 -----------------------------------------------
+eclipse.buildId=4.35.0.202503181406
+java.version=21.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -keyring /Users/parikshitdeshmukh/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.springframework.boot.ide.branding.sts4 -keyring /Users/parikshitdeshmukh/.eclipse_keyring
+
+!ENTRY ch.qos.logback.classic 1 0 2025-05-01 19:06:22.984
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.lemminx.uber-jar 4 0 2025-05-01 19:06:23.319
+!MESSAGE bundle org.eclipse.lemminx.uber-jar:0.29.0 (326) Component descriptor entry 'OSGI-INF/*.xml' not found
+
+!ENTRY ch.qos.logback.classic 1 0 2025-05-01 19:06:41.949
+!MESSAGE Logback config file: /Users/parikshitdeshmukh/Desktop/Developer/ChatApp/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-05-01 19:06:42.368
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-05-01 19:06:42.368
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2025-05-01 19:06:42.819
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-05-01 19:06:42.819
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.mylyn.tasks.ui 2 0 2025-05-01 19:06:47.138
+!MESSAGE No search provider was registered. Tasks search is not available.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-01 19:07:34.950
+!MESSAGE Classpath changed for project: Chat-app
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-01 19:07:34.951
+!MESSAGE Boot project ADDED: Chat-app
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-01 19:07:34.951
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-01 19:07:35.007
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-05-01 19:07:35.027
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.x86_64_21.0.6.v20250130-0529/jre/bin/java
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Dspring.config.location=classpath:/application.properties
+-Xlog:jni+resolve=off
+-XX:ErrorFile=/Users/parikshitdeshmukh/Desktop/Developer/ChatApp/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1746106655026
+-Dlanguageserver.hover-timeout=225
+-jar
+/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.springframework.tooling.boot.ls_1.61.1.202503181316/servers/spring-boot-language-server/spring-boot-language-server-1.61.1-SNAPSHOT-exec.jar
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-01 19:07:35.027
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-05-01 19:07:35.033
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 2847
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-01 19:07:37.971
+!MESSAGE Classpath changed for project: Chat-app
+!SESSION 2025-05-01 21:03:28.945 -----------------------------------------------
+eclipse.buildId=4.35.0.202503181406
+java.version=21.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -keyring /Users/parikshitdeshmukh/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.springframework.boot.ide.branding.sts4 -keyring /Users/parikshitdeshmukh/.eclipse_keyring
+
+!ENTRY ch.qos.logback.classic 1 0 2025-05-01 21:03:41.841
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.lemminx.uber-jar 4 0 2025-05-01 21:03:42.462
+!MESSAGE bundle org.eclipse.lemminx.uber-jar:0.29.0 (326) Component descriptor entry 'OSGI-INF/*.xml' not found
+
+!ENTRY ch.qos.logback.classic 1 0 2025-05-01 22:26:40.445
+!MESSAGE Logback config file: /Users/parikshitdeshmukh/Desktop/Developer/ChatApp/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-05-01 22:26:40.974
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-05-01 22:26:40.974
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2025-05-01 22:26:41.492
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-05-01 22:26:41.492
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-05-01 22:26:46.849
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.x86_64_21.0.6.v20250130-0529/jre/bin/java
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Dspring.config.location=classpath:/application.properties
+-Xlog:jni+resolve=off
+-XX:ErrorFile=/Users/parikshitdeshmukh/Desktop/Developer/ChatApp/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1746118606846
+-Dlanguageserver.hover-timeout=225
+-jar
+/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.springframework.tooling.boot.ls_1.61.1.202503181316/servers/spring-boot-language-server/spring-boot-language-server-1.61.1-SNAPSHOT-exec.jar
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-01 22:26:46.849
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.eclipse.mylyn.tasks.ui 2 0 2025-05-01 22:26:46.906
+!MESSAGE No search provider was registered. Tasks search is not available.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-05-01 22:26:47.239
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 1369
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-01 22:26:48.588
+!MESSAGE Boot project ADDED: Chat-app
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-01 22:26:48.590
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-01 22:26:48.591
+!MESSAGE Started Boot LS process
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-01 22:36:40.245
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:66)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:165)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-01 22:53:59.646
+!MESSAGE Could not resolve completion items due to timeout after 500 milliseconds in `completionItem/resolve`
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.operations.completion.LSCompletionProposal.resolveItem(LSCompletionProposal.java:372)
+	at org.eclipse.lsp4e.operations.completion.LSCompletionProposal.getAdditionalProposalInfo(LSCompletionProposal.java:338)
+	at org.eclipse.lsp4e.operations.completion.LSCompletionProposal.getAdditionalProposalInfo(LSCompletionProposal.java:758)
+	at org.eclipse.lsp4e.operations.completion.LSCompletionProposal.getInformationDisplayString(LSCompletionProposal.java:778)
+	at org.eclipse.jdt.internal.ui.text.java.JavaParameterListValidator.updatePresentation(JavaParameterListValidator.java:284)
+	at org.eclipse.jface.text.contentassist.ContextInformationPopup.internalShowContextFrame(ContextInformationPopup.java:362)
+	at org.eclipse.jface.text.contentassist.ContextInformationPopup.internalShowContextInfo(ContextInformationPopup.java:277)
+	at org.eclipse.jface.text.contentassist.ContextInformationPopup.lambda$1(ContextInformationPopup.java:260)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:67)
+	at org.eclipse.jface.text.contentassist.ContextInformationPopup.showContextInformation(ContextInformationPopup.java:252)
+	at org.eclipse.jface.text.contentassist.ContentAssistant.showContextInformation(ContentAssistant.java:1946)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.insertProposal(CompletionProposalPopup.java:1027)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.insertSelectedProposalWithMask(CompletionProposalPopup.java:951)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.verifyKey(CompletionProposalPopup.java:1395)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$InternalListener.verifyKey(ContentAssistant.java:829)
+	at org.eclipse.jface.text.TextViewer$VerifyKeyListenersManager.verifyKey(TextViewer.java:482)
+	at org.eclipse.swt.custom.StyledTextListener.handleEvent(StyledTextListener.java:70)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4660)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1657)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1680)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1665)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1394)
+	at org.eclipse.swt.custom.StyledText.handleKeyDown(StyledText.java:5742)
+	at org.eclipse.swt.custom.StyledText.lambda$28(StyledText.java:5426)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4660)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1657)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1680)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1665)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1694)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1690)
+	at org.eclipse.swt.widgets.Canvas.sendKeyEvent(Canvas.java:522)
+	at org.eclipse.swt.widgets.Control.doCommandBySelector(Control.java:1052)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6443)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
+	at org.eclipse.swt.internal.cocoa.NSResponder.interpretKeyEvents(NSResponder.java:59)
+	at org.eclipse.swt.widgets.Composite.keyDown(Composite.java:607)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6289)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
+	at org.eclipse.swt.widgets.Widget.callSuper(Widget.java:239)
+	at org.eclipse.swt.widgets.Widget.windowSendEvent(Widget.java:2407)
+	at org.eclipse.swt.widgets.Shell.windowSendEvent(Shell.java:2502)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6401)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
+	at org.eclipse.swt.widgets.Display.applicationSendEvent(Display.java:5705)
+	at org.eclipse.swt.widgets.Display.applicationProc(Display.java:5845)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
+	at org.eclipse.swt.internal.cocoa.NSApplication.sendEvent(NSApplication.java:117)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4000)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:668)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:576)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:149)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:115)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:467)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:298)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:670)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:607)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1492)
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-01 22:54:00.153
+!MESSAGE Could not resolve completion items due to timeout after 500 milliseconds in `completionItem/resolve`
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.operations.completion.LSCompletionProposal.resolveItem(LSCompletionProposal.java:372)
+	at org.eclipse.lsp4e.operations.completion.LSCompletionProposal.getAdditionalProposalInfo(LSCompletionProposal.java:338)
+	at org.eclipse.lsp4e.operations.completion.LSCompletionProposal.getAdditionalProposalInfo(LSCompletionProposal.java:758)
+	at org.eclipse.lsp4e.operations.completion.LSCompletionProposal.getInformationDisplayString(LSCompletionProposal.java:778)
+	at org.eclipse.jface.text.contentassist.ContextInformationPopup.internalShowContextFrame(ContextInformationPopup.java:367)
+	at org.eclipse.jface.text.contentassist.ContextInformationPopup.internalShowContextInfo(ContextInformationPopup.java:277)
+	at org.eclipse.jface.text.contentassist.ContextInformationPopup.lambda$1(ContextInformationPopup.java:260)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:67)
+	at org.eclipse.jface.text.contentassist.ContextInformationPopup.showContextInformation(ContextInformationPopup.java:252)
+	at org.eclipse.jface.text.contentassist.ContentAssistant.showContextInformation(ContentAssistant.java:1946)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.insertProposal(CompletionProposalPopup.java:1027)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.insertSelectedProposalWithMask(CompletionProposalPopup.java:951)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.verifyKey(CompletionProposalPopup.java:1395)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$InternalListener.verifyKey(ContentAssistant.java:829)
+	at org.eclipse.jface.text.TextViewer$VerifyKeyListenersManager.verifyKey(TextViewer.java:482)
+	at org.eclipse.swt.custom.StyledTextListener.handleEvent(StyledTextListener.java:70)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4660)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1657)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1680)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1665)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1394)
+	at org.eclipse.swt.custom.StyledText.handleKeyDown(StyledText.java:5742)
+	at org.eclipse.swt.custom.StyledText.lambda$28(StyledText.java:5426)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4660)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1657)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1680)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1665)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1694)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1690)
+	at org.eclipse.swt.widgets.Canvas.sendKeyEvent(Canvas.java:522)
+	at org.eclipse.swt.widgets.Control.doCommandBySelector(Control.java:1052)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6443)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
+	at org.eclipse.swt.internal.cocoa.NSResponder.interpretKeyEvents(NSResponder.java:59)
+	at org.eclipse.swt.widgets.Composite.keyDown(Composite.java:607)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6289)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
+	at org.eclipse.swt.widgets.Widget.callSuper(Widget.java:239)
+	at org.eclipse.swt.widgets.Widget.windowSendEvent(Widget.java:2407)
+	at org.eclipse.swt.widgets.Shell.windowSendEvent(Shell.java:2502)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6401)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
+	at org.eclipse.swt.widgets.Display.applicationSendEvent(Display.java:5705)
+	at org.eclipse.swt.widgets.Display.applicationProc(Display.java:5845)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
+	at org.eclipse.swt.internal.cocoa.NSApplication.sendEvent(NSApplication.java:117)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4000)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:668)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:576)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:149)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:115)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:467)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:298)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:670)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:607)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1492)
+!SESSION 2025-05-02 16:00:37.806 -----------------------------------------------
+eclipse.buildId=4.35.0.202503181406
+java.version=21.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -keyring /Users/parikshitdeshmukh/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.springframework.boot.ide.branding.sts4 -keyring /Users/parikshitdeshmukh/.eclipse_keyring
+
+!ENTRY ch.qos.logback.classic 1 0 2025-05-02 16:00:50.355
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.lemminx.uber-jar 4 0 2025-05-02 16:00:51.319
+!MESSAGE bundle org.eclipse.lemminx.uber-jar:0.29.0 (326) Component descriptor entry 'OSGI-INF/*.xml' not found
+
+!ENTRY ch.qos.logback.classic 1 0 2025-05-02 16:05:20.270
+!MESSAGE Logback config file: /Users/parikshitdeshmukh/Desktop/Developer/ChatApp/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-05-02 16:05:20.901
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-05-02 16:05:20.901
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2025-05-02 16:05:21.490
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-05-02 16:05:21.490
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-05-02 16:05:27.853
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.x86_64_21.0.6.v20250130-0529/jre/bin/java
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Dspring.config.location=classpath:/application.properties
+-Xlog:jni+resolve=off
+-XX:ErrorFile=/Users/parikshitdeshmukh/Desktop/Developer/ChatApp/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1746182127852
+-Dlanguageserver.hover-timeout=225
+-jar
+/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.springframework.tooling.boot.ls_1.61.1.202503181316/servers/spring-boot-language-server/spring-boot-language-server-1.61.1-SNAPSHOT-exec.jar
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-02 16:05:27.854
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.eclipse.mylyn.tasks.ui 2 0 2025-05-02 16:05:28.015
+!MESSAGE No search provider was registered. Tasks search is not available.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-05-02 16:05:28.273
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 862
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-02 16:05:30.262
+!MESSAGE Boot project ADDED: Chat-app
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-02 16:05:30.263
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-02 16:05:30.278
+!MESSAGE Started Boot LS process
+
+!ENTRY org.eclipse.jface 2 0 2025-05-02 16:14:09.525
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2025-05-02 16:14:09.525
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolInWorkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolInWorkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SESSION 2025-05-02 18:17:11.336 -----------------------------------------------
+eclipse.buildId=4.35.0.202503181406
+java.version=21.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -keyring /Users/parikshitdeshmukh/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.springframework.boot.ide.branding.sts4 -keyring /Users/parikshitdeshmukh/.eclipse_keyring
+
+!ENTRY ch.qos.logback.classic 1 0 2025-05-02 18:17:23.910
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.lemminx.uber-jar 4 0 2025-05-02 18:17:26.078
+!MESSAGE bundle org.eclipse.lemminx.uber-jar:0.29.0 (326) Component descriptor entry 'OSGI-INF/*.xml' not found
+
+!ENTRY ch.qos.logback.classic 1 0 2025-05-02 18:20:18.294
+!MESSAGE Logback config file: /Users/parikshitdeshmukh/Desktop/Developer/ChatApp/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-05-02 18:20:18.825
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-05-02 18:20:18.825
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2025-05-02 18:20:19.442
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-05-02 18:20:19.442
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-05-02 18:20:24.951
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.x86_64_21.0.6.v20250130-0529/jre/bin/java
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Dspring.config.location=classpath:/application.properties
+-Xlog:jni+resolve=off
+-XX:ErrorFile=/Users/parikshitdeshmukh/Desktop/Developer/ChatApp/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1746190224951
+-Dlanguageserver.hover-timeout=225
+-jar
+/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.springframework.tooling.boot.ls_1.61.1.202503181316/servers/spring-boot-language-server/spring-boot-language-server-1.61.1-SNAPSHOT-exec.jar
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-02 18:20:24.952
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-05-02 18:20:25.105
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 827
+
+!ENTRY org.eclipse.mylyn.tasks.ui 2 0 2025-05-02 18:20:25.238
+!MESSAGE No search provider was registered. Tasks search is not available.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-02 18:20:26.999
+!MESSAGE Boot project ADDED: Chat-app
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-02 18:20:26.999
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-02 18:20:27.002
+!MESSAGE Started Boot LS process
+!SESSION 2025-05-03 11:21:33.200 -----------------------------------------------
+eclipse.buildId=4.35.0.202503181406
+java.version=21.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -keyring /Users/parikshitdeshmukh/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.springframework.boot.ide.branding.sts4 -keyring /Users/parikshitdeshmukh/.eclipse_keyring
+
+!ENTRY ch.qos.logback.classic 1 0 2025-05-03 11:21:43.647
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.lemminx.uber-jar 4 0 2025-05-03 11:21:44.147
+!MESSAGE bundle org.eclipse.lemminx.uber-jar:0.29.0 (326) Component descriptor entry 'OSGI-INF/*.xml' not found
+
+!ENTRY ch.qos.logback.classic 1 0 2025-05-03 13:00:39.570
+!MESSAGE Logback config file: /Users/parikshitdeshmukh/Desktop/Developer/ChatApp/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-05-03 13:00:40.033
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-05-03 13:00:40.033
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2025-05-03 13:00:40.449
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-05-03 13:00:40.449
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-05-03 13:00:46.799
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.x86_64_21.0.6.v20250130-0529/jre/bin/java
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Dspring.config.location=classpath:/application.properties
+-Xlog:jni+resolve=off
+-XX:ErrorFile=/Users/parikshitdeshmukh/Desktop/Developer/ChatApp/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1746257446795
+-Dlanguageserver.hover-timeout=225
+-jar
+/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.springframework.tooling.boot.ls_1.61.1.202503181316/servers/spring-boot-language-server/spring-boot-language-server-1.61.1-SNAPSHOT-exec.jar
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-03 13:00:46.800
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-05-03 13:00:46.869
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 1143
+
+!ENTRY org.eclipse.mylyn.tasks.ui 2 0 2025-05-03 13:00:47.127
+!MESSAGE No search provider was registered. Tasks search is not available.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-03 13:00:49.538
+!MESSAGE Boot project ADDED: Chat-app
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-03 13:00:49.540
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-03 13:00:49.542
+!MESSAGE Started Boot LS process
+!SESSION 2025-05-03 21:06:19.417 -----------------------------------------------
+eclipse.buildId=4.35.0.202503181406
+java.version=21.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -keyring /Users/parikshitdeshmukh/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.springframework.boot.ide.branding.sts4 -keyring /Users/parikshitdeshmukh/.eclipse_keyring
+
+!ENTRY ch.qos.logback.classic 1 0 2025-05-03 21:06:29.818
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.lemminx.uber-jar 4 0 2025-05-03 21:06:30.406
+!MESSAGE bundle org.eclipse.lemminx.uber-jar:0.29.0 (326) Component descriptor entry 'OSGI-INF/*.xml' not found
+
+!ENTRY ch.qos.logback.classic 1 0 2025-05-03 21:47:26.806
+!MESSAGE Logback config file: /Users/parikshitdeshmukh/Desktop/Developer/ChatApp/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-05-03 21:47:27.621
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-05-03 21:47:27.621
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2025-05-03 21:47:28.343
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-05-03 21:47:28.343
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-05-03 21:47:33.688
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.x86_64_21.0.6.v20250130-0529/jre/bin/java
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Dspring.config.location=classpath:/application.properties
+-Xlog:jni+resolve=off
+-XX:ErrorFile=/Users/parikshitdeshmukh/Desktop/Developer/ChatApp/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1746289053687
+-Dlanguageserver.hover-timeout=225
+-jar
+/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.springframework.tooling.boot.ls_1.61.1.202503181316/servers/spring-boot-language-server/spring-boot-language-server-1.61.1-SNAPSHOT-exec.jar
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-03 21:47:33.689
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-05-03 21:47:33.720
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 1107
+
+!ENTRY org.eclipse.mylyn.tasks.ui 2 0 2025-05-03 21:47:33.903
+!MESSAGE No search provider was registered. Tasks search is not available.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-03 21:47:35.048
+!MESSAGE Boot project ADDED: Chat-app
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-03 21:47:35.049
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-05-03 21:47:35.050
+!MESSAGE Started Boot LS process
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-03 23:55:54.206
+!MESSAGE Timeout waiting for data to generate LS hover
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:66)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:165)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
